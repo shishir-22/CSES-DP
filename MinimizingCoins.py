@@ -3,10 +3,10 @@ c = list(map(int, input().split()))
 
 """
 Main problem: Find the minimum number of coins that can sum up to x.
-Sub problem: Find the mininum number of coins that can sum up to k+c1,k+c2, k+c3 ...... k+cn where k+ci < x
+Sub problem: Find the mininum number of coins that can sum up to k+c1,k+c2, k+c3 ...... k+cn where k+ci < x and k = 1 to x
 Base problem: For sum 0, we can say that minimum number of coins is 0
-State: dp[k] Minimum number of coins that sum up to x.
-Transition: For any k, minimum of (k + i) where i is the coins.
+State: dp[k] Minimum number of coins that sum up to k.
+Transition: For any k, minimum number of coins for (k + i) where i is the coins.
     
 for eg: for n=3 x=11 and coins = [1 5 7]. Minimum number of coins will be 3 that will sum up to 11 (1, 5, 5)
 
