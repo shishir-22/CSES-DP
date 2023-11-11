@@ -4,7 +4,7 @@ coins = list(map(int, input().split()))
 
 """
 Main problem: Find all possible ways to obtain sum x using given coins
-Sub problem: Find all possible ways to obtain sum k-c1, k-c2, k-c3 .... k-cn. (These can further be divied into subproblems)
+Sub problem: Find all possible ways to obtain sum k-c1, k-c2, k-c3 .... k-cn. (These can further be divided into subproblems)
 Base problem: For sum 0, we can have only 1 ways that is not using any coins
 State: dp[k] Total number of ways to obtain sum k
 Transition: For any k, sum of all possible ways to obtain k-c1, k-c2, k-c3 .... k-cn.
