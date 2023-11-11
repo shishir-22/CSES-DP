@@ -18,7 +18,7 @@ for eg: for n=3 x=11 and coins = [1 5 7]. Minimum number of coins will be 3 that
 
 1 + 7 = 8 -> 8 + 1
 
-so on .....
+so on ....
 
 """
 
